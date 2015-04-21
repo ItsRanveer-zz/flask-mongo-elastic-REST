@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Test - RESTapi</title>
+  <link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="container">
+
+  <h1>Restful APIs for CRUD</h1>
+
+  <a href="{{ url_for('showAll') }}" class="btn btn-lg btn-success">Show All</a>
+  <a href="{{ url_for('insert') }}" class="btn btn-lg btn-primary">Insert</a>
+  <a href="{{ url_for('update') }}" class="btn btn-lg btn-warning">Update</a>
+  <a href="{{ url_for('delete') }}" class="btn btn-lg btn-danger">Delete</a>
+  <a href="{{ url_for('searchfilter') }}" class="btn btn-lg btn-default">Search/Filter</a>
+
+  {% if pageType == 'update' %}
+
+    <h3>Update a record using the Id</h3>
+
+    <form class="form-horizontal" action="{{ url_for('update') }}" method="POST">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend>Update Existing</legend>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="id">Id (*Required Field)</label>
+      <div class="controls">
+        <input name="objectId" type="text" placeholder="Enter Id of Record to Update" class="input-mini" required="">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="year">Year</label>
+      <div class="controls">
+        <input name="year" type="text" placeholder="Year" class="input-mini">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="emptype">Employee Type</label>
+      <div class="controls">
+        <input name="emptype" type="text" placeholder="Employee Type" class="input-small">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="cadre">Cadre</label>
+      <div class="controls">
+        <input name="cadre" type="text" placeholder="Cadre" class="input-medium">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+    <label class="control-label" for="noemp">No of Employees</label>
+      <div class="controls">
+        <input name="noemp" type="text" placeholder="No of Employees" class="input-large">
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <div class="controls">
+        <input type="hidden" name="_method" value="PATCH" />
+        <button class="btn btn-lg btn-warning">Update</button>
+      </div>
+    </div>
+
+    </fieldset>
+    </form>
+
+  {% elif pageType == 'updated' %}
+
+    <h3>{{ data }}</h3>
+
+  {% endif %}
+ 
+</div>
+</body>
+</html>

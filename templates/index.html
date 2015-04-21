@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Test - RESTapi</title>
+  <link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="container">
+
+  <h1>Restful APIs for CRUD</h1>
+
+  <a href="{{ url_for('showAll') }}" class="btn btn-lg btn-success">Show All</a>
+  <a href="{{ url_for('insert') }}" class="btn btn-lg btn-primary">Insert</a>
+  <a href="{{ url_for('update') }}" class="btn btn-lg btn-warning">Update</a>
+  <a href="{{ url_for('delete') }}" class="btn btn-lg btn-danger">Delete</a>
+  <a href="{{ url_for('searchfilter') }}" class="btn btn-lg btn-default">Search/Filter</a>
+
+  {% if pageType == 'index' %}
+
+    <h3>Welcome!</h3>
+
+  {% elif pageType == 'showAll' %}
+
+    <h3>Showing all records form DRDO DataSet</h3>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4><strong>DRDO DataSet</strong></h4></div>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Year</th>
+            <th>Employee Type</th>
+            <th>Cadre</th>
+            <th>No of Employees</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for document in data %}
+            <tr>
+              <td>{{ document['_id'] }}</td>
+              <td>{{ document['Year'] }}</td>
+              <td>{{ document['Employee Type'] }}</td>
+              <td>{{ document['Cadre'] }}</td>
+              <td>{{ document['No of Employees'] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  {% endif %}
+
+</div>
+</body>
+</html>

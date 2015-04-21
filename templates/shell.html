@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Test - RESTapi</title>
+  <link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="container">
+
+  <h1>Restful APIs for CRUD</h1>
+  <h2>Admin Panel</h2>
+  <h3>Query Shell for MongoDB</h3>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-10">
+            <div class="panel panel-default">
+              <form accept-charset="UTF-8" action="{{ url_for('shell', Username = 'admin', Password = 'admin') }}" method="POST">
+              <div class="panel-body"> 
+                <h4>Database name "gov", Collection name "drdo", Fields - "_id", "Year", "Employee Type", "Cadre", "No of Employees"</h4>
+                <h4>Select From Options to Perform on DB:</h4>
+                <table class="table table-bordered">
+                <div class="radio">
+                  <tr>
+                    <td width="130"><label><input type="radio" name="optradio" value="find_one">Find One</label></td>
+                    <td>Eg query: {"Cadre":"Admin & Allied"}</td>
+                  </tr>
+                </div>
+                <div class="radio">
+                  <tr>
+                    <td><label><input type="radio" name="optradio" value="find">Find</label></td>
+                    <td>Eg query: {"Year":2008}</td>
+                  </tr>
+                </div>
+                <div class="radio">
+                  <tr>
+                    <td><label><input type="radio" name="optradio" value="insert">Insert</label></td>
+                    <td>Eg query: {"Cadre" : "Admin & Allied","No of Employees" : 493,"Employee Type" : "Strength of Scheduled Tribe employees","Year" : 2008}</td>
+                  </tr>
+                </div>
+                <div class="radio">
+                  <tr>
+                    <td><label><input type="radio" name="optradio" value="update">Update</label></td>
+                    <td>Eg query: {"Year" : 2008},{'$set': {"Cadre" : "Admin & Allied","No of Employees" : 493}}</td>
+                  </tr>
+                </div>
+                <div class="radio">
+                  <tr>
+                    <td><label><input type="radio" name="optradio" value="remove">Remove</label></td>
+                    <td>Eg query: {"Employee Type" : "Strength of Ex-servicemen employees"}</td>
+                  </tr>
+                </div>
+                </table>
+              </div>
+
+              <div class="panel-body">
+                <h4>Query</h4>             
+                <textarea class="form-control" name="query" placeholder='{"a":"123"}' rows="5" style="margin-bottom:10px;"></textarea>
+                <button class="btn btn-info" type="submit">Run</button>
+              </div>
+              </form>
+
+              <div class="panel-body">
+                <h4>Result</h4>             
+                <textarea class="form-control" rows="10" name="result">{{ data }}</textarea>
+              </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+</body>
+</html>

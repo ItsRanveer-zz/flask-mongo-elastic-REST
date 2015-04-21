@@ -1,0 +1,123 @@
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":934,"Employee Type":"Strength of Scheduled Caste employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1853,"Employee Type":"Strength of Scheduled Caste employees","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":1770,"Employee Type":"Strength  of Scheduled Caste employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":296,"Employee Type":"Strength of Scheduled Tribe employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":552,"Employee Type":"Strength of Scheduled Tribe employees","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":493,"Employee Type":"Strength of Scheduled Tribe employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1102,"Employee Type":"Strength of OBC employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1138,"Employee Type":"Strength of OBC employees","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":723,"Employee Type":"Strength of OBC employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":28,"Employee Type":"Strength of Physically Challenged employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":180,"Employee Type":"Strength of Physically Challenged employees","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":135,"Employee Type":"Strength of Physically Challenged employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1135,"Employee Type":"Strength of Women employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1069,"Employee Type":"Strength of Women employees","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":1666,"Employee Type":"Strength of Women employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":8,"Employee Type":"Strength of Ex-servicemen employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":197,"Employee Type":"Strength of Ex-servicemen employees","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":369,"Employee Type":"Strength of Ex-servicemen employees","Year":2008}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":35,"Employee Type":"Strength of Sports Quota personnel","Year":2008}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":17,"Employee Type":"Strength of Sports Quota personnel","Year":2008}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":984,"Employee Type":"Strength  of Scheduled Caste employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1828,"Employee Type":"Strength  of Scheduled Caste employees","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":1672,"Employee Type":"Strength  of Scheduled Caste employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":316,"Employee Type":"Strength of Scheduled Tribe employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":565,"Employee Type":"Strength of Scheduled Tribe employees","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":480,"Employee Type":"Strength of Scheduled Tribe employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1234,"Employee Type":"Strength of OBC employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1307,"Employee Type":"Strength of OBC employees","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":765,"Employee Type":"Strength of OBC employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":40,"Employee Type":"Strength of Physically Challenged employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":190,"Employee Type":"Strength of Physically Challenged employees","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":145,"Employee Type":"Strength of Physically Challenged employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1172,"Employee Type":"Strength of Women employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1112,"Employee Type":"Strength of Women employees","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":1638,"Employee Type":"Strength of Women employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":8,"Employee Type":"Strength of Ex-servicemen employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":198,"Employee Type":"Strength of Ex-servicemen employees","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":349,"Employee Type":"Strength of Ex-servicemen employees","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":5,"Employee Type":"Strength of Sports Quota personnel","Year":2009}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":35,"Employee Type":"Strength of Sports Quota personnel","Year":2009}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":17,"Employee Type":"Strength of Sports Quota personnel","Year":2009}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1024,"Employee Type":"Strength  of Scheduled Caste employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1826,"Employee Type":"Strength  of Scheduled Caste employees","Year":2010}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":1595,"Employee Type":"Strength  of Scheduled Caste employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":340,"Employee Type":"Strength of Scheduled Tribe employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":571,"Employee Type":"Strength of Scheduled Tribe employees","Year":2010}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":461,"Employee Type":"Strength of Scheduled Tribe employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1359,"Employee Type":"Strength of OBC employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1357,"Employee Type":"Strength of OBC employees","Year":2010}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":736,"Employee Type":"Strength of OBC employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":47,"Employee Type":"Strength of Physically Challenged employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":199,"Employee Type":"Strength of Physically Challenged employees","Year":2010}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":141,"Employee Type":"Strength of Physically Challenged employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":1226,"Employee Type":"Strength of Women employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":1109,"Employee Type":"Strength of Women employees","Year":2010}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":1572,"Employee Type":"Strength of Women employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":8,"Employee Type":"Strength of Ex-servicemen employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":205,"Employee Type":"Strength of Ex-servicemen employees","Year":2010}
+{"index":{}}
+{"Cadre":"Admin & Allied","No of Employees":326,"Employee Type":"Strength of Ex-servicemen employees","Year":2010}
+{"index":{}}
+{"Cadre":"DRDS","No of Employees":0,"Employee Type":"Strength of Sports Quota personnel","Year":2010}
+{"index":{}}
+{"Cadre":"DRTC","No of Employees":38,"Employee Type":"Strength of Sports Quota personnel","Year":2010}
+{"index":{}}

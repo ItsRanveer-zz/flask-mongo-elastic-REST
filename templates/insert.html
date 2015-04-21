@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Test - RESTapi</title>
+  <link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="container">
+
+  <h1>Restful APIs for CRUD</h1>
+
+  <a href="{{ url_for('showAll') }}" class="btn btn-lg btn-success">Show All</a>
+  <a href="{{ url_for('insert') }}" class="btn btn-lg btn-primary">Insert</a>
+  <a href="{{ url_for('update') }}" class="btn btn-lg btn-warning">Update</a>
+  <a href="{{ url_for('delete') }}" class="btn btn-lg btn-danger">Delete</a>
+  <a href="{{ url_for('searchfilter') }}" class="btn btn-lg btn-default">Search/Filter</a>
+
+  <h3>Insert New Record to DataSet</h3>
+
+  {% if pageType == 'insert' %}
+
+    <form class="form-horizontal" action="{{ url_for('insert') }}" method="POST">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend>Insert New</legend>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="year">Year</label>
+      <div class="controls">
+        <input name="year" type="text" placeholder="Year" class="input-mini" required="">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="emptype">Employee Type</label>
+      <div class="controls">
+        <input name="emptype" type="text" placeholder="Employee Type" class="input-small" required="">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="cadre">Cadre</label>
+      <div class="controls">
+        <input name="cadre" type="text" placeholder="Cadre" class="input-medium" required="">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+    <label class="control-label" for="noemp">No of Employees</label>
+      <div class="controls">
+        <input name="noemp" type="text" placeholder="No of Employees" class="input-large" required="">
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <div class="controls">
+        <button class="btn btn-lg btn-primary">Insert</button>
+      </div>
+    </div>
+
+    </fieldset>
+    </form>
+
+  {% elif pageType == 'inserted' %}
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4><strong>New Data added to DRDO DataSet</strong></h4></div>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Year</th>
+            <th>Employee Type</th>
+            <th>Cadre</th>
+            <th>No of Employees</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>{{ data['_id'] }}</td>
+              <td>{{ data['Year'] }}</td>
+              <td>{{ data['Employee Type'] }}</td>
+              <td>{{ data['Cadre'] }}</td>
+              <td>{{ data['No of Employees'] }}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+  {% endif %}
+ 
+</div>
+</body>
+</html>
