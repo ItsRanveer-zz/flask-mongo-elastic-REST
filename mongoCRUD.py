@@ -1,6 +1,5 @@
 __author__ = 'ranveer'
 
-import sys
 from bson.objectid import ObjectId
 from bson.json_util import dumps
 

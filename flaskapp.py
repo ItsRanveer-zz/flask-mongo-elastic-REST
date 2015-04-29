@@ -1,6 +1,5 @@
 __author__ = 'ranveer'
 
-import os
 import pymongo
 import mongoCRUD
 import searchElastic
@@ -126,7 +125,7 @@ def page_not_found(e):
 
 @app.errorhandler(500)
 def page_not_found(e):
-    return render_template('404.html'), 404
+    return render_template('500.html'), 500
 
 # Mongo Connect
 connection = pymongo.MongoClient(host="mongodb://localhost:27017")

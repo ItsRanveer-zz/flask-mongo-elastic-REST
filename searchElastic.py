@@ -2,7 +2,6 @@ __author__ = 'ranveer'
 
 import json
 import urllib2
-import urllib
 
 class SearchElastic:
 
@@ -32,10 +31,3 @@ class SearchElastic:
         if searchType == 'noemp':
             params = '{"from": 0,"size" : 61,"query":{"query_string":{"query":"' + searchText + '","fields":["No of Employees"]}}}'
         return params
-
-    def iterate_cursor(self, cursor):
-    	l = []
-        for record in cursor:
-            l.append({'_id':record['_id'],'Year':record['Year'], 'Employee Type':record['Employee Type'], 'Cadre':record['Cadre'],
-                      'No of Employees':record['No of Employees']})
-    	return l

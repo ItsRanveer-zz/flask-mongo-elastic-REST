@@ -1,8 +1,8 @@
 # flask-mongo-elastic-REST
 
-A RESTful project for CRUD operations made using Flask, Mongo and Elastic
+A REST project for CRUD operations made using Flask, Mongo and Elastic
 
-This project covers making RESTful API's using:
+This project covers making a small REST website for CRUD operations using:
 
 * Flask (a python microframework).
 * MongoDB (a document database), used for storing the data.
@@ -37,5 +37,3 @@ After running `app.py` your application will start listening on [http://localhos
 From here you can use different buttons to do CRUD.
 You can also login as admin using [http://localhost:5000/login/](http://localhost:5000/login/) (Username = admin, Password = admin) to see the Mongo query shell.
 You can also perform search using Search button.
-
-The Live version of this project is at [http://test.itsranveer.ninja/](http://test.itsranveer.ninja/)
