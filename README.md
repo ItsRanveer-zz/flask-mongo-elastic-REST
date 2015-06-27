@@ -1,8 +1,8 @@
 # flask-mongo-elastic-REST
 
-A REST project for CRUD operations made using Flask, Mongo and Elastic
+A project for CRUD operations made using Flask, Mongo and Elastic
 
-This project covers making a small REST website for CRUD operations using:
+This project covers making a small website for CRUD operations using:
 
 * Flask (a python microframework).
 * MongoDB (a document database), used for storing the data.
